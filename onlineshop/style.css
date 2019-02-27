@@ -1,0 +1,197 @@
+html,body{background-image:url(back.jpg);
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+}
+div.d1{float:left;
+	background-color:hotpink;
+	height:auto;
+	width:33.135%;
+	font-size:50%;
+	color:WHITE;
+	text-align:center;
+	display:inline;
+	}
+div.d4{border-left-color:white;
+	border-left-style:dotted;
+	border-right-color:white;
+	border:0.05;
+	border-right-style:dotted;
+	}
+div.d2{
+	background-color:#hotpink;
+	margin:0px;
+	padding:0px;
+	height:140px;
+	width:auto;
+	background-image:url(teddy1.png);
+	background-repeat:repeat;
+	background-size:15% 100%;
+	}
+div.d6{
+	background-color:#hotpink;
+	margin:0px;
+	padding:0px;
+	height:135px;
+	width:auto;
+	background-image:url(icon.png);
+	background-repeat:no-repeat;
+	background-size:15% 100%;
+}
+div.d3{background-color:hotpink;
+	width:100%;
+	height:auto;
+	display:inline-table;
+	}
+div.d5{margin-top:60px;
+	margin-left:20px;
+	margin-right:20px;
+	margin-bottom:50px;
+	padding:0px;
+	border-style:solid;
+	border-width:2;
+	border-color:hotpink;
+	background-image:url(back.jpg);
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	size:auto;
+	box-shadow:2px 3px;
+	}
+div.d7{margin-top:60px;
+	margin-left:100px;
+	margin-right:100px;
+	margin-bottom:70px;
+	height:290px;
+	width:auto;
+	padding-left:70px;
+	padding-right:70px;}
+	
+H1,p{text-align:center;font-family:papyrus;color:white;}
+p.p2{background-color:hotpink;
+	margin-left:14.8%;
+	height:75px;
+	padding-top:30px;
+	font-weight:bold;
+	padding-bottom:30px;}
+
+p.p1{
+	font-size:170%;
+	color:white;
+	padding:20px;
+	text-align:justify;}
+a{text-decoration:none;}
+a.a1{color:white;font-family:papyrus;font-weight:bold;font-size:170%;}
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  background-color:red;
+  color:white;
+  font-family:papyrus;
+  font-weight:bolder;
+}
+span.b {
+  display: inline-block;
+  width:20.4%;
+  height: auto;
+  padding: 5px;
+}
+span.a {
+  display: inline-block;
+  width:50%;
+  height: 270px;
+  padding: 5px;   
+}
+input[type], select {
+  width: 190%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 75%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: red;
+}
+
+div.d9 {
+  border-radius: 5px;
+  background-image:url(back.jpeg);
+  background-repeat:no-repeat;
+  border-color:hotpink;
+  border-style:solid;
+  padding: 20px;
+  color:white;
+  font-size:150%;
+  margin-bottom:62px;
+}
+label{margin:30px;}
+
+.dropbtn {
+  background-color: hotpink;
+  color: white;
+  font-family:papyrus;
+  font-size: 190%;
+  border: none;
+  cursor: pointer;
+  font-weight:bold;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+    padding-top:1%;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 150px;
+  background-color: hotpink;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: deeppink;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color:deeppink;
+}
